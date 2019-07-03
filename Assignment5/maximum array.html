@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script >
+
+
+	function max(arr) {
+	var large = arr[0];
+	for(var i=1; i<arr.length; i++) {
+		if(large < arr[i]) {
+			large = arr[i];
+		}
+	}
+	return large;
+}
+
+var input = [10, 30, 85, 43, 90];
+var output = max(input);
+
+console.log("The mamimum number in the array is:",output);
+</script>
+</body>
+</html>

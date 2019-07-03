@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)file:///F:/mean/javascript/prime.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script type="text/javascript">
+	 function findPrime(){
+                var num = document.getElementById('num').value;
+                var c = 0;
+ 
+     for (i = 1; i <= num; i++) {
+     if (num % i == 0) {
+     c = c + 1;
+      }
+      }
+if (c == 2) {
+document.getElementById('result').innerHTML = num + ' is a Prime number';
+ }else
+ {
+                    document.getElementById('result').innerHTML = num + ' is NOT a Prime number';
+                }
+            }       
+
+</script>
+</head>
+<body>
+
+<h2>JavaScript to find Prime number or not!</h2>
+        
+            Enter a number:  <input type="text" id="num" name="num">
+            <input type="button" value="Find Prime Number" onclick="findPrime()" name="find">
+            <div style="margin-top: 10px;" id="result"></div>
+        
+
+</body></html>

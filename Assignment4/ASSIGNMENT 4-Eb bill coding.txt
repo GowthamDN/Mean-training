@@ -1,0 +1,31 @@
+EB BILL CODING:
+<!DOCTYPE html>
+<html>
+<head>
+<title>EB</title>
+
+</head>
+<body>
+<h2>EB Bill</h2>
+<script type="text/javascript">
+function EBunit(unit)
+{
+if(unit<=100)
+{
+res=unit*2;
+console.log("EB bill cost is:",res);
+}
+else if(unit<=100 && unit>=200)
+{
+res=unit*3;
+console.log("EB bill cost is:",res);
+}
+else(unit<=200)
+{
+res=unit*4;
+console.log("EB bill cost is:",res);
+}
+}res=EBunit(300);
+</script>
+</body>
+</html>

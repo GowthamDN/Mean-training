@@ -1,0 +1,28 @@
+
+ODD OR EVEN:
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+      function odd_even()
+{
+      var no;
+      no=Number(document.getElementById("no_input").value);
+      if(no%2==0)
+      {
+      alert("Even Number");
+      }
+      else
+      {
+      alert("Odd Number");
+      }
+}
+</script>
+</head>
+<body>
+<h4>Enter Any Number <br><input id="no_input"></h4> <br/>
+<button onclick="odd_even()">Submit</button>
+</body>
+</html>
+
+

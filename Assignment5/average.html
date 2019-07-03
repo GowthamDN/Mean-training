@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>average number</title>
+</head>
+<body>
+<script>
+	function average (num) {
+  var sum = 0;
+  if(!num.length){
+    return sum;  
+  }
+  for (var i = 0; i < num.length; i++){
+      sum += num[i];
+  }
+  return sum / num.length;
+}var input = [10, 30, 85, 43, 90];
+var output = average(input);
+
+console.log("The average of the array is:",output);
+</script>
+</body>
+</html>
